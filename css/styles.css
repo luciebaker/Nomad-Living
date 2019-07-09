@@ -1,0 +1,252 @@
+/* typography */
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4.493rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.181rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.181rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.249rem;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.591rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+/* For consistency across sections */
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-header {
+  padding-bottom: 25px;
+}
+
+hr {
+  border: solid #000 4px;
+  border-bottom: none;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+/* Button Unique */
+.btn-unique, .btn-unique-reverse, .btn-unique-white {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  height: 40px;
+  background: #ffd600;
+  line-height: 40px !important;
+  padding: 0 25px !important;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 0.10em; */
+  position: relative;
+  border: none;
+  text-decoration: none !important;
+  border-radius: 0 !important;
+}
+
+.btn-unique::before, .btn-unique-reverse::before, .btn-unique-white::before {
+  content: '';
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border: 1px solid #fff;
+  position: absolute;
+  display: block;
+  left: 1px;
+  top: 1px;
+  text-decoration: none !important;
+}
+
+.btn-unique:hover, .btn-unique-reverse:hover, .btn-unique-white:hover, .btn-unique:focus, .btn-unique-reverse:focus, .btn-unique-white:focus {
+  background: #000;
+  color: #fff;
+}
+
+.btn-unique-reverse {
+  background: #000;
+  background: #fff;
+}
+
+.btn-unique-white {
+  color: #ffd600;
+  background: #000;
+}
+
+.btn-unique-white::before {
+  border-color: #ffd600;
+}
+
+.btn-unique-white:hover, .btn-unique-white:focus {
+  background: #000;
+  border: none;
+  color: #fff
+}
+
+/* Navbar */
+.navbar {
+  padding: 0.1rem 4rem;
+}
+
+.navbar-nav {
+  padding-right: 20px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-item.active {
+  color: #ffd600;
+  border-color: #ffd600;
+}
+
+.form-inline {
+  padding-left: 1.5rem;
+}
+
+.navbar-search-icon {
+  color: #fff;
+}
+
+/* Top container section */
+.top-page {
+  background-image: url(../images/aruba.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-color: #3a6499;
+  border-bottom: solid 15px #000;
+}
+
+.top-page-pin {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+/* intro section */
+.intro {
+  background-color: #f3f3f3;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* Blog summary section */
+
+.col-md-6 {
+  margin-top: 25px;
+}
+
+.blog-feed-section {
+  background-color: #f3f3f3;
+}
+
+.blog-feed-summary {
+  position: relative;
+  margin-bottom: 0;
+  padding-left: 170px;
+  min-height: 170px;
+}
+
+.blog-feed-summary h5 {
+  margin-bottom: 4px;
+}
+
+.post-summary {
+  margin-bottom: 0;
+}
+
+.post-date {
+  font-size: 0.9rem;
+}
+
+.post-summary-image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+}
+
+/* .btn-blog-feed-summary {
+  margin: 15px auto;
+} */
+
+/* .blog-feed-summary-content {
+
+} */
+
+/* Footer and copyright section */
+.footer {
+  background-color: #818c84;
+}
+
+.header {
+  padding-bottom: 15px;
+}
+
+.list-unstyled {
+  line-height: 1.7rem;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+button.btn.btn-unique {
+  margin-top: 15px;
+}
+
+/* Copyright section */
+.copyright-section {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #000;
+}
+
+.copyright-section p {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.copyright-section a {
+  color: #ffd600;
+}
