@@ -153,21 +153,25 @@ hr {
   height: 600px;
   background-size: cover;
   background-position: center;
-  background-color: #3a6499;
+  background-color: #000;
   border-bottom: solid 15px #000;
 }
 
 .top-page-pin {
-  padding-top: 40px;
+  padding-top: 65px;
   padding-bottom: 10px;
 }
 
 /* intro section */
+
+
 .intro {
   background-color: #f3f3f3;
   position: relative;
   padding-bottom: 10px;
 }
+
+
 
 /* Blog summary section */
 
@@ -234,12 +238,80 @@ hr {
 button.btn.btn-unique {
   margin-top: 15px;
 }
+/* footer newsletter section */
 
+.footer-newsletter {
+padding: 45px 0;
+background: #000;
+}
+
+.footer-newsletter .content {
+max-width: 900px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+
+.footer-newsletter .content h4 {
+color: #fff;
+margin-bottom: 40px; }
+
+.footer-newsletter .content .form-control {
+height: 50px;
+border-color: #ffffff;
+border-radius:0;
+}
+.footer-newsletter .content p {
+color: #fff;
+font-size: 0.9rem;
+padding-top: 10px;
+}
+
+.footer-newsletter .content .btn {
+min-height: 50px;
+border-radius:0;
+background: #ffd600;
+color: #000;
+font-family: 'Raleway', sans-serif;
+font-weight:500;
+}
+
+/* instagram footer section */
+
+.footer-instagram-col {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-instagram-image {
+  padding: 0;
+  margin: 0;
+}
+
+/* footer section */
+
+.footer {
+  padding: 15px auto;
+  background-color: #000;
+}
+
+.footer-heading {
+  color: #fff;
+}
+
+.footer-text {
+  color: #fff;
+}
+.footer-icon {
+  color: #fff;
+  padding: 30px 10px;
+}
 /* Copyright section */
 .copyright-section {
   padding-top: 20px;
   padding-bottom: 5px;
   background-color: #000;
+  border-top: solid 4px #ffd600;
 }
 
 .copyright-section p {
